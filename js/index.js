@@ -153,13 +153,6 @@ function renderPrice() {
   const totalPriceElement = document.querySelector('.panel.price strong');
   totalPriceElement.innerText = `$${totalPrice}`;
 }
-
-/*<li>$1 pepperoni</li>
-        <li>$1 mushrooms</li>
-        <li>$1 green peppers</li>
-        <li>$3 white sauce</li>
-        <li>$5 gluten-free crust</li>
-*/
 renderEverything();
 
 // Iteration 1: Example of a click event listener on `<button class="btn btn-pepperoni">`
